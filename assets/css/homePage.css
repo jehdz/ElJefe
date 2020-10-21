@@ -1,0 +1,174 @@
+.navbar.navbar-dark.navbar-expand-lg.fixed-top.bg-white.text-right {
+  width: 100%;
+  color: rgb(251,251,251);
+  background: linear-gradient(white, rgb(0,0,0) 0%), rgb(0,0,0);
+  text-align: center;
+}
+
+/* nav bar stylying */
+
+.navbar-brand.logo {
+  position: relative;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  font-size: 40px;
+  text-align: left;
+  letter-spacing: 2PX;
+  width: 100;
+  padding-right: 0px;
+  margin: 0px;
+  margin-left: 0%;
+  left: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#navbarNav {
+  padding-right: 0px;
+  margin-right: 0px;
+  width: 100%;
+  /*text-align: center;*/
+}
+
+.nav.navbar-nav.ml-auto {
+  text-align: left;
+}
+
+.nav-item.text-justify.flex-column-reverse {
+  padding: 0;
+}
+
+.portfolio-block.call-to-action.border-bottom {
+  padding: 0;
+  text-align: center;
+  /*align-items: center;*/
+  /*align-content: center;*/
+}
+
+.headerPic {
+  width: 100%;
+  padding-top: -40px;
+  background: url("https://cdn.bootstrapstudio.io/placeholders/1400x800.png"), rgb(255,255,255);
+  margin-top: 32px;
+}
+
+/* Hot cold pastries sandwiches menu */
+
+.nav-item {
+  border-style: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.bottomPage {
+  height: 683px;
+  background: #000000;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 0px;
+  text-align: center;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.JefeHeader {
+  text-align: center;
+  color: rgb(255,255,255);
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  font-size: 75px;
+  margin: 0;
+  padding-top: 30px;
+  letter-spacing: 20px;
+  height: 126px;
+  padding-bottom: 20px;
+}
+
+.text-center.slogan {
+  font-family: Baskervville, serif;
+  color: rgb(255,255,255);
+  width: 100%;
+  text-align: center;
+}
+
+.text-justify.d-xl-flex.align-items-xl-center.divider {
+  /*left: 25%;*/
+  margin: auto;
+  height: 3px;
+  background: #ffffff;
+  width: 50%;
+  padding-left: 0px;
+  padding-right: 0px;
+  /*margin-left: 349px;*/
+  margin-top: 36px;
+}
+
+.SocialMediaHolder {
+  padding-top: 20px;
+  padding-bottom: 21px;
+  margin-top: 16px;
+}
+
+/* Social Media Icons */
+
+.fa.fa-facebook {
+  color: rgb(255,255,255);
+  padding: 0px;
+  padding-right: 40px;
+  font-size: 29px;
+  padding-left: 40px;
+}
+
+.fa.fa-instagram {
+  color: rgb(255,255,255);
+  padding: 0px;
+  padding-right: 40px;
+  font-size: 29px;
+  padding-left: 40px;
+}
+
+.fa.fa-twitter {
+  color: rgb(255,255,255);
+  padding: 0px;
+  padding-right: 40px;
+  font-size: 29px;
+  padding-left: 40px;
+}
+
+/* email stylying */
+
+.subEmail {
+  font-size: 25px;
+  font-family: Anton, sans-serif;
+  color: rgb(255,255,255);
+  letter-spacing: 5px;
+  padding-top: 8px;
+  padding-left: 8px;
+}
+
+.row.emai {
+  text-align: right;
+  margin: 0PX -15PX;
+  margin-top: 24px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+.col.d-xl-flex.justify-content-xl-end.align-items-xl-center {
+  padding-left: 0px;
+  padding-right: 69px;
+  height: 36px;
+  margin-bottom: 0px;
+}
+
+.btn.btn-dark.signup {
+  width: 105px;
+  margin-left: 0px;
+  padding-right: 17px;
+  background: rgb(0,0,0);
+  height: 38px;
+  font-family: Baskervville, serif;
+  font-size: 13px;
+  border-width: 2px;
+  border-color: rgb(255,255,255);
+}
+
