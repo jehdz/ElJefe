@@ -172,3 +172,19 @@
   border-color: rgb(255,255,255);
 }
 
+.add-cart-btn{
+  font-family: Helvetica;
+  width: 150px;
+  height: 35px;
+  color: #ffffff;
+  /*letter-spacing: 2px;*/
+  background-color: black;
+  border-radius: 4px;
+  box-shadow: none;
+  transition: ease-out 0.3s;
+  outline: none;
+}
+
+.add-cart-btn:hover{
+  box-shadow: inset 200px 0 0 0 #28c101;
+}
