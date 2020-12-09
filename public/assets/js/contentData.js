@@ -108,15 +108,33 @@ function coffeeTemplateCold(coffee){
     }
 }
 
+//original code below
+
+// function coffeeTemplateHot(coffee){
+//     if(coffee.drink == "hot"){
+//
+//         return `<div class="col" style="text-align: center;height: 370PX;"><img src="${coffee.imgPath}" style="width: 300PX;">
+//                      <div style="font-family: Helvetica;">
+//                         <span ><strong> $</strong> ${coffee.price} </span>
+//                         <br>
+//                         <button class="add-cart-btn" type="button" > add to cart</button>
+//
+//
+//                     </div>
+//                 </div> `
+//     }
+// }
+
 
 function coffeeTemplateHot(coffee){
     if(coffee.drink == "hot"){
 
-        return `<div class="col" style="text-align: center;height: 370PX;"><img src="${coffee.imgPath}" style="width: 300PX;">
+        return `<div class="col" style="text-align: center;height: 500PX;"><img src="${coffee.imgPath}" style="width: 300PX;">
                      <div style="font-family: Helvetica;"> 
-                        <span ><strong> $</strong> ${coffee.price} </span>  
+                        <span class="shop-item-title"> ${coffee.name} </span>
+                        <span class="shop-item-price"><strong> $</strong> ${coffee.price} </span>  
                         <br>
-                        <button class="add-cart-btn"> add to cart</button>
+                        <button class="add-cart-btn shop-item-button" type="button" > add to cart</button>
                       
                         
                     </div>

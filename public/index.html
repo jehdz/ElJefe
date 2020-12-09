@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
     <link rel="stylesheet" href="assets/css/merch.css?h=36a9b5696dd6a68091cb4bdb0b0d2e7d">
     <link rel="stylesheet" href="assets/css/rewards.css?h=12aeb15e9d5ef3785ae45f4a367742bb">
+    <link rel="stylesheet" href="assets/css/cart.css" />
+    <script src="assets/js/cart.js" async></script>
 </head>
 
 <body>
@@ -61,6 +63,24 @@
 <!--    call on javascrip function to build the content. contentData.js-->
     <div id="purchaseContent" class="container">
     </div>
+<!--cart-->
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+<!--    end of cart-->
+
     <section class="bottomPage">
         <h1 class="JefeHeader" style="padding-bottom: 35px;">EL JEFE COFFEE</h1>
         <div class="row" style="text-align: center;">
