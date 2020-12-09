@@ -66,7 +66,7 @@ const coffeeData = [
     {
         name: "Cold Brew" ,
         price: 5.99,
-        drink: "cold",
+        drink: "hot",
         imgPath: "assets/img/avatars/coffee/cold-brew.png?h=a6dc828db199f191db08f91d9df2b728"
     },
     {
