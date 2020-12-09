@@ -1,0 +1,45 @@
+.portfolio-block.call-to-action.border-bottom {
+  padding: 0;
+  text-align: center;
+  /*align-items: center;*/
+  /*align-content: center;*/
+}
+
+.portfolio-laptop-mockup .screen {
+  align-content: center;
+}
+
+.aboutHeader {
+  width: 100%;
+  padding-top: -40px;
+  background: url("https://cdn.bootstrapstudio.io/placeholders/1400x800.png"), rgb(255,255,255);
+  margin-top: 118px;
+}
+
+.h1, h1 {
+}
+
+.coffee.header {
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  font-size: 50px;
+}
+
+.portfolio-block.website p {
+  padding: 0em;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin: 0em;
+  font-family: "HelveticaNeue-Condensed", "Helvetica Neue";
+  font-size: 20px;
+}
+
+.menu {
+  width: 80%;
+  padding: 0;
+}
+
+.hours {
+  height: 160px;
+  margin-bottom: 2em;
+}
+
